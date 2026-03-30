@@ -1,8 +1,12 @@
+
 # UBI Hash Reversal
 
 I've only seen this used on Lidl's website, for registration.\
 Quite simple mainly using MurmurHash3 x64 128hash however due to a bug in their original code, you cant use a package like mmh3.\
-Maybe it was a bug maybe its intentional who knows
+Maybe it was a bug maybe its intentional who knows\
+
+`response_hash` is gained by sending a GET request to `https://ubi.xxx.com/`\
+`ubi_key` is in the response of `https://accounts.xxx.com/api/rules?client_id=LidlPlusNativeClient`
 
 ## Disclaimer
 
